@@ -6,7 +6,7 @@ A privacy-first, modern web application built with React to help you track and m
 
 ## Demo
 
-[Open the live demo on GitHub Pages](https://marcinkgit1.github.io/subscription_manager/)
+[Open the live demo on GitHub Pages](https://marcinKgit1.github.io/subscription_manager/)
 
 ## ✨ Features
 

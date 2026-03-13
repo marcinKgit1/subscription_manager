@@ -1,8 +1,12 @@
 # 📱 Subscription Manager
 
-A privacy-first, modern web application built with React to help you track and manage your recurring subscriptions. 
+A privacy-first, modern web application built with React to help you track and manage your recurring subscriptions.
 
 ![Subscription Manager Preview](https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80)
+
+## Demo
+
+[Open the live demo on GitHub Pages](https://marcinkgit1.github.io/subscription_manager/)
 
 ## ✨ Features
 
@@ -29,11 +33,13 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Prerequisites
 
 You need to have Node.js installed on your computer.
+
 - Download and install [Node.js](https://nodejs.org/) (version 18 or higher is recommended).
 
 ### Installation
 
 1. **Clone the repository** (or download and extract the ZIP file):
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
    cd YOUR_REPOSITORY_NAME
@@ -41,11 +47,13 @@ You need to have Node.js installed on your computer.
 
 2. **Install dependencies**:
    Open your terminal in the project folder and run:
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**:
+
    ```bash
    npm run dev
    ```
@@ -60,9 +68,11 @@ To create a production-ready build of the application:
 ```bash
 npm run build
 ```
+
 This will generate a `dist` folder containing the compiled HTML, CSS, and JavaScript files. You can host this folder on any static hosting service like Vercel, Netlify, or GitHub Pages.
 
 To preview the production build locally:
+
 ```bash
 npm run preview
 ```
@@ -73,4 +83,4 @@ This application is completely serverless. It does not communicate with any exte
 
 ---
 
-*Built with ❤️ for a modern frontend portfolio.*
+_Built with ❤️ for a modern frontend portfolio._

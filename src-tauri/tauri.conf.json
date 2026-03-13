@@ -1,18 +1,18 @@
 {
-  "$schema": "https://schema.tauri.app/config/2",
-  "productName": "sub-tracker",
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "subscription_manager",
   "version": "0.1.0",
-  "identifier": "com.subscriptiontracker.app",
+  "identifier": "com.tauri.dev",
   "build": {
-    "frontendDist": "../dist",
-    "devUrl": "http://127.0.0.1:3000",
+    "frontendDist": "../build ../dist",
+    "devUrl": "http://localhost:5173",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
   },
   "app": {
     "windows": [
       {
-        "title": "Subscription Tracker",
+        "title": "subscription manager",
         "width": 800,
         "height": 600,
         "resizable": true,
